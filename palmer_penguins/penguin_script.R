@@ -41,13 +41,14 @@ head(penguins)
 # Get into the habit of committing often
 
 
-# Load the tidyverse library.
+# Load the tidyverse library. install it too
+install.packages("tidyverse")
 library(tidyverse)
 
 # If the package doesn't exist, run `install.packages("tidyverse")` and then `library(tidyverse)`. 
 # You only need to run the install once.
 
-# Read in the data
+# Read in the data # # # # # # 
 glimpse(penguins)
 
 # Run a linear regression
